@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NBA球星展示</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">NBA Stars</div>
+        <ul class="nav-links">
+            <li><a href="#" class="active">首页</a></li>
+            <li><a href="#">球员</a></li>
+            <li><a href="#">关于</a></li>
+        </ul>
+        <button class="language-toggle">EN/中</button>
+    </nav>
+
+    <main class="container">
+        <div class="players-grid">
+            <!-- 球员卡片将通过JavaScript动态生成 -->
+        </div>
+
+        <div class="chat-container">
+            <div class="chat-header">
+                <h3>NBA AI助手</h3>
+                <button class="minimize-btn">—</button>
+            </div>
+            <div class="chat-messages">
+                <!-- 消息内容将通过JavaScript动态添加 -->
+            </div>
+            <div class="chat-input">
+                <textarea placeholder="输入您的问题..."></textarea>
+                <div class="chat-buttons">
+                    <button class="voice-btn">
+                        <i class="fas fa-microphone"></i>
+                    </button>
+                    <button class="send-btn">
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2024 NBA Stars - All Rights Reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
